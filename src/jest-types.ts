@@ -21,5 +21,5 @@ export type Transformer = {
     sourcePath: Path,
     config: Config,
     options?: TransformOptions
-  ) => string;
+  ) => {code: string};
 };
